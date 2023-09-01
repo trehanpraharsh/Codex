@@ -4,7 +4,9 @@ import cors from "cors";
 // import { Configuration, OpenAIApi } from "openai";
 import OpenAI from "openai";
 
-dotenv.config();
+dotenv.config({
+  path: "/Users/praharshtrehan/Desktop/codex/.env",
+});
 
 // const configuration = new Configuration({
 //   apiKey: process.env.OPEN_API_KEY,
